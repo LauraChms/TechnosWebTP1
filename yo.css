@@ -1,0 +1,58 @@
+
+#yo
+{
+    color: black;
+    font-family:sans-serif
+    text-align:justify;
+}
+
+#titre
+{
+    display: flex;
+
+}
+
+#sous
+{
+    font-size: 18px;
+    color: dimgrey;
+}
+#sousous
+{
+    color: black;
+}
+
+#nom
+{
+    color: darkgreen;
+
+}
+
+#recherche
+{
+    color: darkslategray;
+    text-align: center;
+}
+
+#descriptif
+{
+    
+    border-color:darkslategray;
+    display: inline-block;
+    max-width:55%;
+    align-content: right;
+    
+}
+
+#skills
+{
+    border-color: darkslategray;
+    display: inline-block;
+    max-width: 35%;
+    align-content: left;
+}
+
+#h2
+{
+    color: darkgreen;
+}
