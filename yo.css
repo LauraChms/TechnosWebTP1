@@ -2,14 +2,20 @@
 #yo
 {
     color: black;
-    font-family:sans-serif
-    text-align:justify;
+    font-family:monaco;
+    text-align:monopasce;
+    font-size: 15px;
 }
 
 #titre
 {
     display: flex;
 
+}
+
+#d
+{
+    margin-left: 30px;
 }
 
 #sous
@@ -31,7 +37,7 @@
 #recherche
 {
     color: darkslategray;
-    text-align: center;
+    text-align:center;
 }
 
 #descriptif
@@ -39,8 +45,9 @@
     
     border-color:darkslategray;
     display: inline-block;
-    max-width:55%;
+    width:60%;
     align-content: right;
+    padding-right: 30px;
     
 }
 
@@ -48,11 +55,30 @@
 {
     border-color: darkslategray;
     display: inline-block;
-    max-width: 35%;
+    width: 30%;
     align-content: left;
+    border-left: 1px solid darkslategray;
+    padding-left: 30px;
 }
 
 #h2
 {
     color: darkgreen;
+}
+
+#contact
+{
+    margin-left: 300px;
+    margin-right: 300px;
+    border-color: darkslategray;
+}
+
+#b
+{
+    margin-left:13px;
+}
+
+#bouton
+{
+    margin-left: 230px;
 }
