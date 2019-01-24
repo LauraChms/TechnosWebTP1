@@ -5,12 +5,18 @@
     font-family:monaco;
     text-align:monopasce;
     font-size: 15px;
+    background-color: lightsteelblue;
 }
 
 #titre
 {
     display: flex;
 
+}
+
+#contour
+{
+    border-color: white;
 }
 
 #d
@@ -30,20 +36,20 @@
 
 #nom
 {
-    color: darkgreen;
+    color: whitesmoke;
 
 }
 
 #recherche
 {
-    color: darkslategray;
+    color: dimgrey;
     text-align:center;
 }
 
 #descriptif
 {
     
-    border-color:darkslategray;
+    border-color:white;
     display: inline-block;
     width:60%;
     align-content: right;
@@ -53,32 +59,35 @@
 
 #skills
 {
-    border-color: darkslategray;
+    border-color: white;
     display: inline-block;
     width: 30%;
     align-content: left;
-    border-left: 1px solid darkslategray;
+    border-left: 1px solid white;
     padding-left: 30px;
 }
 
 #h2
 {
-    color: darkgreen;
+    color: whitesmoke;
 }
 
-#contact
-{
-    margin-left: 300px;
-    margin-right: 300px;
-    border-color: darkslategray;
+.sticker {
+width: 180px;
+height: 180px;
 }
 
-#b
-{
-    margin-left:13px;
+.example-1 .sticker-img {
+background-image: url(laura.jpeg);
 }
 
-#bouton
-{
-    margin-left: 230px;
+// add color
+.example-2 .sticker-img {
+background-color: #ff4a85;
 }
+
+// change shadow opacity
+.example-2 .sticker-shadow {
+opacity: 0.6;
+}
+

@@ -1,0 +1,46 @@
+
+#recherche
+{
+    text-align: center;
+    color: whitesmoke;
+}
+
+#contact
+{
+    margin-left: 500px;
+    margin-right: 500px;
+    border-color: white;
+    background-color: lightsteelblue;
+}
+
+#b
+{
+    margin-left:15px;
+}
+
+#d
+{
+    margin-left:11px;
+}
+
+#c
+{
+    margin-left: 10px;
+}
+
+#bouton
+{
+    margin-left: 280px;
+}
+
+#message
+{
+    margin-left: 11px;
+}
+
+
+#yo
+{
+    background-color: lightsteelblue;
+    font-family:monaco;
+}
