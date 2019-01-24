@@ -44,3 +44,46 @@
     background-color: lightsteelblue;
     font-family:monaco;
 }
+
+.element {
+  height: 20px;
+margin-left: 300px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  width: 60px;
+    font-size: 7px;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.2);
+    background-color: deeppink;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: limegreen;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
